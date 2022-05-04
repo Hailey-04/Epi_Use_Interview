@@ -1,0 +1,26 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans';
+  background-color: rgb(240, 240, 240);
+  margin: 150px;
+}
+
+.btn-pink {
+  color: black;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(white, white);
+  transition: background 0.3s ease;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.btn-pink:hover {
+  background: linear-gradient(#E850EB, #E850EB);
+  color: black;
+}
