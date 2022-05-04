@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@300;700&display=swap');
+
+@import url(pages/landing.css);
+@import url(pages/home.css);
+@import url(pages/login.css);
+@import url(pages/manage.css);
+@import url(pages/login_failed.css);
+@import url(pages/unlock_confirmation.css);
+@import url(pages/lockdoor.css);
+@import url(pages/unlockdoor.css);
+@import url(pages/hierarchy.css);
+
+
+.h1 {
+  margin: 0;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+.p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.text-center {
+  text-align: center;
+}
