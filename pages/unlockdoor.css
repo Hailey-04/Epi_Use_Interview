@@ -1,0 +1,52 @@
+.container {
+  background-color: #3699B8;
+  padding: 150px 0;
+  margin: 150px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+.container form {
+  text-align: center;
+  width: 500px;
+  margin: 10px auto;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+
+.form input {
+  display: table-cell;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.btn-pink {
+  color: black;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(white, white);
+  transition: background 0.3s ease;
+  border: 1px solid black;
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 5px 0;
+  display: flex;
+
+}
+
+.btn-pink:hover {
+  background: linear-gradient(#E850EB, #E850EB);
+  color: black;
+}
